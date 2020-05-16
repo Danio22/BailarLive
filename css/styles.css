@@ -1,0 +1,283 @@
+/* GENERAL */
+body {
+  background-color: #E5E5E5;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1{
+  font-weight: 600;
+}
+
+.container-fluid {
+  padding: 5% 15% 5%;
+}
+
+.mikrofon{
+  position: absolute;
+  height: 800px;
+  left:20px;
+}
+/* NAVBAR */
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid-navbar {
+  padding: 1.5% 15%;
+  background-color: #252525;
+}
+
+.brand-nazwa {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #E5E5E5;
+}
+
+.odnosnik {
+  color: #E5E5E5;
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.icon-hamburger {
+  color: #E5E5E5;
+}
+
+/* TITLE */
+
+.title-opis{
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 30px auto 0;
+}
+.title-image {
+  width: 100%;
+}
+
+.carousel-photo-profile {
+  padding: 2% 15% 7%;
+}
+
+.fa-angle-right {
+  color: #252525;
+}
+.icon-left-arrow-transform{
+  transform: rotate(180deg);
+}
+
+/* ABOUT US */
+#about {
+  background-color: #252525;
+  color: #E5E5E5;
+  position: relative;
+}
+.about-opis-zespolu{
+  padding: 30px 0 50px;
+}
+
+.icon-poznaj-nas{
+  background-color: #E5E5E5;
+  width: 50px;
+  height:50px;
+  border-radius: 100%;
+  padding-top: 9px;
+  color: #252525;
+}
+.icon-position1{
+  position:absolute;
+  left: 5%;
+  top:20%;
+}
+.icon-position2{
+  position:absolute;
+  left: 5%;
+  top:45%;
+}
+.icon-position3{
+  position:absolute;
+  left: 5%;
+  top:70%;
+}
+.icon-poznaj-nas:hover{
+    animation-name: iconScale;
+    animation-duration:0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+      background-color:#0a4782;
+      color:#E5E5E5;
+}
+
+@keyframes iconScale {
+  from {transform:scale(1);}
+  to{transform:scale(1.45);}
+}
+
+/* LISTEN */
+#listen{
+  color:#e5e5e5;
+    width:100%;
+    text-align: left;
+    background-image: url("zdjecia/photo_background.png");
+    background-size: cover;
+
+}
+.background-photo{
+  width: 100%;
+}
+.title-song{
+  padding-bottom: 20px;
+}
+
+/* MENU */
+.container-songs{
+  padding: 0 15% 5%;
+}
+.menu-title{
+  margin-bottom: 30px;
+}
+.spacja{
+  padding-bottom: 70px;
+}
+.song-photo-cover{
+  width: 15%;
+display: block;
+float:left;
+}
+
+.menu-text{
+  text-align: left;
+  margin-left: 20%;
+}
+
+.audio-bar{
+  height: 30px;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.song-title{
+  text-align: left;
+margin-top: 9px;
+}
+
+/* CONTACT US  */
+.niebieski{
+  color:#0a4782;
+}
+
+#contact{
+  background-color:#E5E5E5;
+}
+.skontaktuj-sie{
+  margin-bottom: 30px;
+}
+
+.wyslij-maila{
+  margin-top: 20px 0;
+}
+.wyslij-maila-p{
+  margin-bottom: 0;
+}
+
+.contact-tel{
+  margin: 20px  0px 20px;
+}
+.fa-phone-volume{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* FOOTER  */
+
+#footer{
+  background-color: #252525;
+  color: #E5E5E5;
+}
+
+.footer-icon-poznaj-nas{
+  color:#E5e5e5;
+  display: inline-block;
+  padding-top: 20px;
+  margin: 0 20px 20px;
+}
+.footer-text{
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+
+/* ------------------------------------------------------------- O NAS ----------------------------------------------------------*/
+
+#members{
+  color:#252525;
+}
+
+.container-czlonek-zespolu{
+margin-bottom: 40px;
+
+}
+.zdjecie-czlonka-zepsolu{
+  width: 180px;
+  border-radius: 100%;
+}
+.opis-czlonka-zespolu{
+  text-align: justify;
+  font-size: 1.2rem;
+  margin:auto;
+}
+
+.title-members{
+  margin-bottom: 50px;
+}
+
+.container-fluid-members{
+    padding: 0 15% ;
+}
+.opis-zespolu{
+  text-align: justify;
+}
+.czlonek1{
+  margin-top:3.5%;
+}
+.czlonek2{
+  margin-top:7%;
+}
+.czlonek3{
+  margin-top:5%;
+}
+.czlonek4{
+  margin-top:4.5%;
+}
+.czlonek5{
+  margin-top:3.5%;
+}
+.hr-kropki{
+  border-bottom: none;
+  border-top: 6px dotted #0a4782;
+  width: 6%;
+  margin: 20px auto;
+}
+.oferta-tytul{
+font-weight: 600;
+margin-bottom: 30px;
+}
+.oferta-podtytul{
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+/* -------------------------------------------------------- RIDER ------------------------------------------------------*/
+#sprzet1 p {
+  margin:10px 0 30px;
+}
+
+#sprzet1 h4{
+  font-weight: 600;
+}
+.naglowek{
+  font-weight: 600;
+}
+.naglowek-glowny{
+  margin-top:30px;
+}
